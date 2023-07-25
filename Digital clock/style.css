@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightslategray;
+}
+
+.clock {
+  font-family: Arial, sans-serif;
+  font-size: 6rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.shadow {
+  box-shadow: 0 0 10px;
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+.date {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  color: #fff;
+}
